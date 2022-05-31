@@ -1,0 +1,14 @@
+@mixin stretch {
+  width: 100%;
+  height: 100%;
+}
+
+.main-wrapper {
+  //@include stretch;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+.main-item {
+  height: 100vh;
+}
