@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://hanyoonseok.github.io/MYPORTFOLIO/",
+  "homepage": "https://hanyoonseok.github.io/MYPORTFOLIO",
   "eslintConfig": {
     "extends": [
       "react-app",

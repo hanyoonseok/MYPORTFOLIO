@@ -5,7 +5,7 @@ import MainPage from "./MainPage";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exact path="/" element={<MainPage />} />
       </Routes>
