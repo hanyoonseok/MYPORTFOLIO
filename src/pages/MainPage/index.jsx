@@ -3,7 +3,7 @@ import "./style.scss";
 
 import { Dots } from "../../components";
 import BackgroundImg from "../../assets/background.jpg";
-import {BiDownArrow} from "react-icons/bi"
+import { BiDownArrow } from "react-icons/bi";
 
 const MainPage = () => {
   const [scrollIdx, setScrollIdx] = useState(1);
@@ -86,15 +86,15 @@ const MainPage = () => {
     <div className="main-wrapper" ref={mainWrapperRef}>
       <Dots scrollIdx={scrollIdx} />
       <div className="main-item">
-        <img src={BackgroundImg} alt="" className="backgroundimg"/>
+        <img src={BackgroundImg} alt="" className="backgroundimg" />
         <div className="black-effect"></div>
         <div className="title-wrapper">
-          <h1 className="main-title">매일</h1>
+          <h1 className="main-title"></h1>
           <h1 className="main-title">
             <b>한윤석</b> 입니다.
           </h1>
         </div>
-        <BiDownArrow className="arrow"/>
+        <BiDownArrow className="arrow" />
       </div>
 
       <div className="main-item">hi2</div>
